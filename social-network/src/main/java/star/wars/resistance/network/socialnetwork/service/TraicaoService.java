@@ -24,7 +24,7 @@ public class TraicaoService {
         List<Traicao> traidores = traicaoRepository.findByTraido(traicao.getTraido());
 
         if (traidores.size() >= 3) {
-            Rebelde rebelde = rebeldesRepository.findById(traicao.getTraido().getId()).get();
+            Rebelde rebelde = rebeldesRepository.findById(traicao.getTraido()).get();
             rebelde.setTraidor(true);
             rebeldesRepository.saveAndFlush(rebelde);
         }
@@ -33,8 +33,22 @@ public class TraicaoService {
         return t;
     }
 
-    public List<Traicao> todos(){
+    public Traicao traicao(Long id) {
+        return traicaoRepository.findById(id).get();
+    }
+
+    public List<Traicao> todos() {
         return traicaoRepository.findAll();
+    }
+
+
+    public List<Traicao> pegaListaDeTraidoresDoTraido(Long id) {
+
+        return traicaoRepository.findByTraido(id);
+    }
+
+    public Long countByTraido(Long r) {
+        return traicaoRepository.countByTraido(r);
     }
 
     public TraicaoService() {

@@ -1,7 +1,6 @@
 package star.wars.resistance.network.socialnetwork.models;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.persistence.*;
 
@@ -14,18 +13,15 @@ public class Traicao {
     private Long id;
 
     //Um rebelde e traido por varios traidores
-    @OneToOne(targetEntity = Rebelde.class, fetch = FetchType.LAZY)
-    private Rebelde traido;
+    //@OneToOne(targetEntity = Rebelde.class, fetch = FetchType.LAZY)
+    private Long traido;
 
     //Um traidor trai um traido
-    @OneToOne(targetEntity = Rebelde.class, fetch = FetchType.LAZY)
-    private Rebelde traidor;
+    //@OneToOne(targetEntity = Rebelde.class, fetch = FetchType.LAZY)
+    private Long traidor;
 
-
-    @JsonCreator
     public Traicao() {
     }
-
 
     public Long getId() {
         return id;
@@ -35,26 +31,24 @@ public class Traicao {
         this.id = id;
     }
 
-    public Rebelde getTraido() {
+    public Long getTraido() {
         return traido;
     }
 
-    public void setTraido(Rebelde traido) {
+    public void setTraido(Long traido) {
         this.traido = traido;
     }
 
-    public Rebelde getTraidor() {
+    public Long getTraidor() {
         return traidor;
     }
 
-    public void setTraidor(Rebelde traidor) {
+    public void setTraidor(Long traidor) {
         this.traidor = traidor;
     }
 
-    @JsonCreator
-    public Traicao(@JsonProperty("traido") Rebelde traido,@JsonProperty("traidor") Rebelde traidor) {
+    public Traicao(Long traido, Long traidor) {
         this.traido = traido;
         this.traidor = traidor;
     }
-
 }

@@ -18,7 +18,7 @@ public class RelatoriosController {
 
     @GetMapping("/traidores")
     public Set<Rebelde> RebeldesTraidores(){
-        return traicaoRepository.getRebeldesComTraicoesMaiorQueTres();
+        return null;
 
     }
 
