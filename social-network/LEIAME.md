@@ -42,3 +42,9 @@ Esse teste quando rodado isolado dos outros passa normal, mas quando roda a suit
 ## Configuracao
 
 O projeto esta usando Spring Boot, Spring Data, H2 db, Spring Web.
+
+    ./mvnw clean install package -DskipTests
+    
+    java -jar ./target/social-network-0.0.1.jar
+    
+Projeto implementado no Elementary OS, usando SDKMAN, JAVA 8/11.
