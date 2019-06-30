@@ -1,7 +1,5 @@
 package star.wars.resistance.network.socialnetwork.models;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-
 import javax.persistence.*;
 import javax.transaction.Transactional;
 

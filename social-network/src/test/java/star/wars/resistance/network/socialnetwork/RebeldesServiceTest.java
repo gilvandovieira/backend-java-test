@@ -61,7 +61,8 @@ public class RebeldesServiceTest {
     @Test
     public void alteraLocalizacaoDoRebelde_Test() {
 
-        assertThat(r1.getLocalizacao().getLocal()).isEqualTo(l.getLocal());
+        assertThat(r1.getLocalizacao()
+                .getLocal()).isEqualTo(l.getLocal());
 
     }
 
@@ -70,10 +71,14 @@ public class RebeldesServiceTest {
     public void negociaItemComRebelde_Test() {
 
         r1 = rebeldesService.negociarItems(r2.getId(), r1.getId(), new Item(1l, 1l, 1l, 1l));
-        assertThat(r1.getItems().getAgua()).isEqualTo(6l);
-        assertThat(r1.getItems().getArma()).isEqualTo(6l);
-        assertThat(r1.getItems().getComida()).isEqualTo(6l);
-        assertThat(r1.getItems().getMunicao()).isEqualTo(6l);
+        assertThat(r1.getItems()
+                .getAgua()).isEqualTo(6l);
+        assertThat(r1.getItems()
+                .getArma()).isEqualTo(6l);
+        assertThat(r1.getItems()
+                .getComida()).isEqualTo(6l);
+        assertThat(r1.getItems()
+                .getMunicao()).isEqualTo(6l);
     }
 
     @Test

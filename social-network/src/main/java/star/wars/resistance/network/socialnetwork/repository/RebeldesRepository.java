@@ -10,7 +10,7 @@ import javax.transaction.Transactional;
 
 @Repository
 @Transactional
-public interface RebeldesRepository extends JpaRepository<Rebelde, Long> , CrudRepository<Rebelde, Long> {
+public interface RebeldesRepository extends JpaRepository<Rebelde, Long>, CrudRepository<Rebelde, Long> {
 
 
 }

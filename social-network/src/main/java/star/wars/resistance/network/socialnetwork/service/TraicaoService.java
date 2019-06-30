@@ -26,7 +26,8 @@ public class TraicaoService {
         List<Traicao> traidores = traicaoRepository.findByTraido(traicao.getTraido());
 
         if (traidores.size() >= 3) {
-            Rebelde rebelde = rebeldesRepository.findById(traicao.getTraido()).get();
+            Rebelde rebelde = rebeldesRepository.findById(traicao.getTraido())
+                    .get();
             rebelde.setTraidor(true);
             rebeldesRepository.saveAndFlush(rebelde);
         }
@@ -36,7 +37,8 @@ public class TraicaoService {
     }
 
     public Traicao traicao(Long id) {
-        return traicaoRepository.findById(id).get();
+        return traicaoRepository.findById(id)
+                .get();
     }
 
     public List<Traicao> todos() {
