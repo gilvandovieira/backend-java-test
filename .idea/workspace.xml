@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e80aa66-b89e-4c81-9b5c-885f263ddf81" name="Default Changelist" comment="Creating firsts tests">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/gilvando.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-network/LEIAME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Negocio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/controller/RebeldesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/controller/RebeldesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/controller/RelatoriosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/controller/RelatoriosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/controller/TraicaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/controller/TraicaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Rebelde.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Rebelde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Traicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Traicao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/repository/RebeldesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/repository/RebeldesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/repository/TraicaoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/repository/TraicaoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/RebeldesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/RebeldesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/TraicaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/TraicaoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-network/LEIAME.md" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/LEIAME.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/social-network/target/" />
@@ -50,7 +34,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="630">
-                <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+                <caret line="42" selection-start-line="42" selection-end-line="42" />
               </first_editor>
               <second_editor />
             </state>
@@ -902,7 +886,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="630">
-            <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+            <caret line="42" selection-start-line="42" selection-end-line="42" />
           </first_editor>
           <second_editor />
         </state>

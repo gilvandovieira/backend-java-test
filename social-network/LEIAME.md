@@ -40,4 +40,5 @@
 Esse teste quando rodado isolado dos outros passa normal, mas quando roda a suite inteira ele retorna um valor maluco. Investiguei ate onde pude mas nao consegui encontrar a causa do problema.
 
 ##Configuracao
+
 O projeto esta usando Spring Boot, Spring Data, H2 db, Spring Web.
