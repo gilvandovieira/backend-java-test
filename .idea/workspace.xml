@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e80aa66-b89e-4c81-9b5c-885f263ddf81" name="Default Changelist" comment="Creating firsts tests">
-      <change afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/controller/RelatoriosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/controller/RelatoriosController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Rebelde.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Rebelde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Traicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Traicao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/repository/TraicaoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/repository/TraicaoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/RebeldesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/RebeldesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/TraicaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/TraicaoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/TraicaoReposiotoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/TraicaoReposiotoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/social-network/target/" />
@@ -26,58 +19,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/RebeldesService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-37">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Rebelde.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+            <state relative-caret-position="459">
+              <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
                 <element signature="e#1235#1236#0" expanded="true" />
-                <element signature="e#1523#1524#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-                <element signature="e#1600#1601#0" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1729#1730#0" expanded="true" />
+                <element signature="e#1760#1761#0" expanded="true" />
+                <element signature="e#1721#1722#0" expanded="true" />
                 <element signature="e#1749#1750#0" expanded="true" />
                 <element signature="e#1789#1790#0" expanded="true" />
                 <element signature="e#1823#1824#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/RebeldesService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -117,10 +97,10 @@
         <option value="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/controller/RelatoriosController.java" />
         <option value="$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/TraicaoReposiotoryTest.java" />
         <option value="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Traicao.java" />
-        <option value="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Rebelde.java" />
         <option value="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Item.java" />
-        <option value="$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesServiceTest.java" />
+        <option value="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Rebelde.java" />
         <option value="$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/RebeldesService.java" />
+        <option value="$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesServiceTest.java" />
       </list>
     </option>
   </component>
@@ -274,20 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RebeldesServiceTest.totalDePontosDoRebelde">
-    <configuration name="SocialNetworkApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="star.wars.resistance.network.socialnetwork.SocialNetworkApplication" />
-      <module name="social-network" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="star.wars.resistance.network.socialnetwork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RebeldesServiceTest">
     <configuration name="RebeldesServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="social-network" />
       <extension name="coverage">
@@ -299,6 +266,38 @@
       <option name="PACKAGE_NAME" value="star.wars.resistance.network.socialnetwork" />
       <option name="MAIN_CLASS_NAME" value="star.wars.resistance.network.socialnetwork.RebeldesServiceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RebeldesServiceTest.mediaDasAguas_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="social-network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="star.wars.resistance.network.socialnetwork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="star.wars.resistance.network.socialnetwork" />
+      <option name="MAIN_CLASS_NAME" value="star.wars.resistance.network.socialnetwork.RebeldesServiceTest" />
+      <option name="METHOD_NAME" value="mediaDasAguas_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RebeldesServiceTest.mediaDasArmas_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="social-network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="star.wars.resistance.network.socialnetwork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="star.wars.resistance.network.socialnetwork" />
+      <option name="MAIN_CLASS_NAME" value="star.wars.resistance.network.socialnetwork.RebeldesServiceTest" />
+      <option name="METHOD_NAME" value="mediaDasArmas_Test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,7 +318,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RebeldesServiceTest.totalDePontosDoRebelde" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RebeldesServiceTest.porcentagemDeRebeldes_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="social-network" />
       <extension name="coverage">
         <pattern>
@@ -329,23 +328,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="star.wars.resistance.network.socialnetwork" />
       <option name="MAIN_CLASS_NAME" value="star.wars.resistance.network.socialnetwork.RebeldesServiceTest" />
-      <option name="METHOD_NAME" value="totalDePontosDoRebelde" />
+      <option name="METHOD_NAME" value="porcentagemDeRebeldes_Test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TraicaoReposiotoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="social-network" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="star.wars.resistance.network.socialnetwork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="star.wars.resistance.network.socialnetwork" />
-      <option name="MAIN_CLASS_NAME" value="star.wars.resistance.network.socialnetwork.TraicaoReposiotoryTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -375,11 +359,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RebeldesServiceTest.totalDePontosDoRebelde" />
-        <item itemvalue="JUnit.RebeldesServiceTest.negociaItemComRebelde_Test" />
-        <item itemvalue="JUnit.TraicaoReposiotoryTest" />
         <item itemvalue="JUnit.RebeldesServiceTest" />
-        <item itemvalue="Application.SocialNetworkApplication" />
+        <item itemvalue="JUnit.RebeldesServiceTest.negociaItemComRebelde_Test" />
+        <item itemvalue="JUnit.RebeldesServiceTest.mediaDasArmas_Test" />
+        <item itemvalue="JUnit.RebeldesServiceTest.mediaDasAguas_Test" />
+        <item itemvalue="JUnit.RebeldesServiceTest.porcentagemDeRebeldes_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -397,35 +381,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TraicaoReposiotoryTest - 2019.06.30 at 10h 02m 56s.xml">
-      <configuration name="TraicaoReposiotoryTest" configurationId="JUnit" />
+    <history-entry file="RebeldesServiceTest_porcentagemDeRebeldes_Test - 2019.06.30 at 11h 55m 12s.xml">
+      <configuration name="RebeldesServiceTest.porcentagemDeRebeldes_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraicaoReposiotoryTest - 2019.06.30 at 10h 12m 58s.xml">
-      <configuration name="TraicaoReposiotoryTest" configurationId="JUnit" />
+    <history-entry file="RebeldesServiceTest_mediaDasAguas_Test - 2019.06.30 at 12h 07m 24s.xml">
+      <configuration name="RebeldesServiceTest.mediaDasAguas_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraicaoReposiotoryTest - 2019.06.30 at 10h 21m 12s.xml">
-      <configuration name="TraicaoReposiotoryTest" configurationId="JUnit" />
+    <history-entry file="RebeldesServiceTest - 2019.06.30 at 12h 11m 17s.xml">
+      <configuration name="RebeldesServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraicaoReposiotoryTest - 2019.06.30 at 10h 23m 05s.xml">
-      <configuration name="TraicaoReposiotoryTest" configurationId="JUnit" />
+    <history-entry file="RebeldesServiceTest - 2019.06.30 at 12h 20m 42s.xml">
+      <configuration name="RebeldesServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraicaoReposiotoryTest - 2019.06.30 at 10h 24m 31s.xml">
-      <configuration name="TraicaoReposiotoryTest" configurationId="JUnit" />
+    <history-entry file="RebeldesServiceTest - 2019.06.30 at 12h 24m 49s.xml">
+      <configuration name="RebeldesServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraicaoReposiotoryTest - 2019.06.30 at 10h 25m 02s.xml">
-      <configuration name="TraicaoReposiotoryTest" configurationId="JUnit" />
+    <history-entry file="RebeldesServiceTest_mediaDasArmas_Test - 2019.06.30 at 12h 25m 34s.xml">
+      <configuration name="RebeldesServiceTest.mediaDasArmas_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraicaoReposiotoryTest - 2019.06.30 at 10h 27m 06s.xml">
-      <configuration name="TraicaoReposiotoryTest" configurationId="JUnit" />
+    <history-entry file="RebeldesServiceTest - 2019.06.30 at 12h 25m 42s.xml">
+      <configuration name="RebeldesServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RebeldesServiceTest_negociaItemComRebelde_Test - 2019.06.30 at 10h 53m 57s.xml">
+    <history-entry file="RebeldesServiceTest_negociaItemComRebelde_Test - 2019.06.30 at 12h 26m 45s.xml">
       <configuration name="RebeldesServiceTest.negociaItemComRebelde_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RebeldesServiceTest_negociaItemComRebelde_Test - 2019.06.30 at 10h 57m 23s.xml">
-      <configuration name="RebeldesServiceTest.negociaItemComRebelde_Test" configurationId="JUnit" />
+    <history-entry file="RebeldesServiceTest - 2019.06.30 at 12h 27m 22s.xml">
+      <configuration name="RebeldesServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RebeldesServiceTest_negociaItemComRebelde_Test - 2019.06.30 at 10h 59m 28s.xml">
-      <configuration name="RebeldesServiceTest.negociaItemComRebelde_Test" configurationId="JUnit" />
+    <history-entry file="RebeldesServiceTest - 2019.06.30 at 12h 28m 58s.xml">
+      <configuration name="RebeldesServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -645,25 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Rebelde.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1600#1601#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
-            <element signature="e#1789#1790#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -671,24 +636,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesServiceTest.java">
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/current/lib/src.zip!/java.base/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
+        <state relative-caret-position="181">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.8.RELEASE/spring-test-5.1.8.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.8.RELEASE/spring-test-5.1.8.RELEASE.jar!/org/springframework/test/context/TestContextManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.8.RELEASE/spring-test-5.1.8.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.8.RELEASE/spring-test-5.1.8.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunBeforeTestClassCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.8.RELEASE/spring-test-5.1.8.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestClassCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="226" column="16" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#5951#6086#0" expanded="true" />
+            <element signature="e#6085#6086#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.8.RELEASE/spring-test-5.1.8.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/models/Rebelde.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+          <folding>
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/social-network/src/main/java/star/wars/resistance/network/socialnetwork/service/RebeldesService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+        <state relative-caret-position="-37">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social-network/src/test/java/star/wars/resistance/network/socialnetwork/RebeldesServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -8,6 +8,7 @@ import star.wars.resistance.network.socialnetwork.models.Rebelde;
 import star.wars.resistance.network.socialnetwork.repository.RebeldesRepository;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class RebeldesService {
@@ -20,12 +21,17 @@ public class RebeldesService {
         return rebeldesRepository.saveAndFlush(rebelde);
     }
 
-    public Rebelde atualizarLocalizacao(Localizacao localizacao, Long id) {
-        Rebelde r = rebeldesRepository.findById(id).get();
+    public Rebelde atualiza(Rebelde r) {
+        Rebelde rebelde = this.rebeldesRepository.findById(r.getId()).get();
+        rebelde = r;
+        return this.rebeldesRepository.saveAndFlush(rebelde);
+    }
 
-        r.setLocalizacao(localizacao);
+    public Rebelde atualizarLocalizacao(Localizacao localizacao, Rebelde rebelde) {
 
-        return rebeldesRepository.saveAndFlush(r);
+        rebelde.setLocalizacao(localizacao);
+
+        return rebeldesRepository.saveAndFlush(rebelde);
     }
 
 
@@ -38,6 +44,10 @@ public class RebeldesService {
         return rebeldesRepository.findById(id).get();
     }
 
+    public void toggleTraidor(Rebelde r) {
+        r.toggleTraidor();
+        this.rebeldesRepository.saveAndFlush(r);
+    }
 
     public void negociarItems(Rebelde rebelde1, Rebelde rebelde2, Item item) {
 
@@ -64,8 +74,63 @@ public class RebeldesService {
     public Long pontosDoRebelde(Rebelde rebelde) {
         return rebelde.getItems() != null ?
                 rebelde.getItems().getAgua() * Item.AGUA_PTS +
-                rebelde.getItems().getArma() * Item.ARMA_PTS +
-                rebelde.getItems().getComida() * Item.COMIDA_PTS +
-                rebelde.getItems().getMunicao() * Item.MUNICAO_PTS : 0l;
+                        rebelde.getItems().getArma() * Item.ARMA_PTS +
+                        rebelde.getItems().getComida() * Item.COMIDA_PTS +
+                        rebelde.getItems().getMunicao() * Item.MUNICAO_PTS : 0l;
+    }
+
+    public double porcentagemDeTraidores() {
+        List<Rebelde> todos = this.rebeldesRepository.findAll();
+
+        List<Boolean> traidores = todos.stream()
+                .map(traidor -> traidor.isTraidor())
+                .filter(e -> e.booleanValue())
+                .collect(Collectors.toList());
+
+        return ((double) traidores.size() / (double) todos.size());
+
+    }
+
+    public double porcentagemDeRebeldes() {
+        List<Rebelde> todos = this.rebeldesRepository.findAll();
+        List<Boolean> rebeldes = todos.stream()
+                .map(rebelde -> !rebelde.isTraidor())
+                .filter(e -> e)
+                .collect(Collectors.toList());
+
+        return ((double) rebeldes.size() / (double) todos.size());
+
+    }
+
+    public Double mediaDeAgua() {
+        List<Rebelde> rebeldes = this.rebeldesRepository.findAll();
+
+        double aguas = rebeldes.stream().map(rebelde -> rebelde.getItems().getAgua()).reduce(0l, (a, b) -> a + b).doubleValue();
+
+        return (aguas / (double) rebeldes.size());
+    }
+
+    public Double mediaDeArma() {
+        List<Rebelde> rebeldes = this.rebeldesRepository.findAll();
+
+        double armas = rebeldes.stream().map(rebelde -> rebelde.getItems().getArma()).reduce(0l, (a, b) -> a + b).doubleValue();
+
+        return (armas / (double) rebeldes.size());
+    }
+
+    public Double mediaDeComida() {
+        List<Rebelde> rebeldes = this.rebeldesRepository.findAll();
+
+        double comidas = rebeldes.stream().map(rebelde -> rebelde.getItems().getComida()).reduce(0l, (a, b) -> a + b).doubleValue();
+
+        return (comidas / (double) rebeldes.size());
+    }
+
+    public Double mediaDeMunicao() {
+        List<Rebelde> rebeldes = this.rebeldesRepository.findAll();
+
+        double municao = rebeldes.stream().map(rebelde -> rebelde.getItems().getMunicao()).reduce(0l, (a, b) -> a + b).doubleValue();
+
+        return (municao / (double) rebeldes.size());
     }
 }

@@ -1,7 +1,6 @@
 package star.wars.resistance.network.socialnetwork.models;
 
 import javax.persistence.*;
-import java.util.List;
 
 
 @Entity
@@ -16,7 +15,7 @@ public class Rebelde {
     private Integer idade;
     private String genero;
 
-    private boolean traidor;
+    private Boolean traidor = false;
 
     @Embedded
     private Localizacao localizacao;
@@ -83,11 +82,15 @@ public class Rebelde {
 
 
     public boolean isTraidor() {
-        return traidor;
+        return traidor.booleanValue();
     }
 
     public void setTraidor(boolean traidor) {
         this.traidor = traidor;
+    }
+
+    public void toggleTraidor(){
+        this.traidor = !this.traidor;
     }
 
     public Item getItems() {
