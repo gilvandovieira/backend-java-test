@@ -3,9 +3,11 @@ package star.wars.resistance.network.socialnetwork.models;
 import com.fasterxml.jackson.annotation.JsonCreator;
 
 import javax.persistence.*;
+import javax.transaction.Transactional;
 
 @Entity
 @Table(name = "traicoes")
+@Transactional
 public class Traicao {
 
     @Id

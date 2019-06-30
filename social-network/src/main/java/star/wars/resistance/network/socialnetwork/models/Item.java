@@ -2,7 +2,7 @@ package star.wars.resistance.network.socialnetwork.models;
 
 public class Item {
 
-    Long arma, municao, agua, comida;
+    Long arma = 0l, municao = 0l, agua = 0l, comida = 0l;
 
     public static final Long ARMA_PTS = 4l;
     public static final Long MUNICAO_PTS = 3l;

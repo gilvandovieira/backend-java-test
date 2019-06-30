@@ -34,13 +34,13 @@ public class RebeldesServiceTest {
         rebeldesService.novo(r2);
         rebeldesService.novo(r3);
 
-        r1.setItems(new Item(5l, 5l, 5l, 5l));
-        r2.setItems(new Item(7l, 7l, 7l, 7l));
-        r3.setItems(new Item(6l, 6l, 6l, 6l));
+        r1.setItems(new Item(5l, 5l, 5l, 5l)); //50
+        r2.setItems(new Item(7l, 7l, 7l, 7l)); //70
+        r3.setItems(new Item(6l, 6l, 6l, 6l)); //60
 
-        rebeldesService.atualiza(r1);
-        rebeldesService.atualiza(r2);
-        rebeldesService.atualiza(r3);
+        rebeldesService.substitui(r1);
+        rebeldesService.substitui(r2);
+        rebeldesService.substitui(r3);
 
         l = new Localizacao(-1, 1, "Sistema Solar/Terra");
 
@@ -69,12 +69,11 @@ public class RebeldesServiceTest {
     @Test
     public void negociaItemComRebelde_Test() {
 
-        rebeldesService.negociarItems(r2, r1, new Item(1l, 0l, 2l, 3l));
-
+        r1 = rebeldesService.negociarItems(r2.getId(), r1.getId(), new Item(1l, 1l, 1l, 1l));
         assertThat(r1.getItems().getAgua()).isEqualTo(6l);
-        assertThat(r1.getItems().getArma()).isEqualTo(5l);
-        assertThat(r1.getItems().getComida()).isEqualTo(7l);
-        assertThat(r1.getItems().getMunicao()).isEqualTo(8l);
+        assertThat(r1.getItems().getArma()).isEqualTo(6l);
+        assertThat(r1.getItems().getComida()).isEqualTo(6l);
+        assertThat(r1.getItems().getMunicao()).isEqualTo(6l);
     }
 
     @Test
@@ -122,5 +121,10 @@ public class RebeldesServiceTest {
 
         assertThat(rebeldesService.mediaDeMunicao()).isBetween(5.9, 6.1);
 
+    }
+
+    @Test
+    public void pontosPerdidosPorTraidores() {
+        assertThat(rebeldesService.pontosPerdidos()).isEqualTo(60l);
     }
 }

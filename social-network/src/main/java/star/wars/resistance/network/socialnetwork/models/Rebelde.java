@@ -1,10 +1,12 @@
 package star.wars.resistance.network.socialnetwork.models;
 
 import javax.persistence.*;
+import javax.transaction.Transactional;
 
 
 @Entity
 @Table(name = "rebeldes")
+@Transactional
 public class Rebelde {
 
     @Id
@@ -89,12 +91,15 @@ public class Rebelde {
         this.traidor = traidor;
     }
 
-    public void toggleTraidor(){
+    public void toggleTraidor() {
         this.traidor = !this.traidor;
     }
 
     public Item getItems() {
-        return items;
+        //if (this.traidor)
+        return items != null ? items : new Item();
+        //else
+        //  return items != null ? this.items = new Item(-this.getItems().getAgua(), -this.getItems().getArma(), -this.items.getComida(), -this.getItems().getMunicao()) : new Item();
     }
 
     public void setItems(Item items) {

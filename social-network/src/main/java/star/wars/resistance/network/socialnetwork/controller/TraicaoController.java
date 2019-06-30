@@ -4,7 +4,6 @@ package star.wars.resistance.network.socialnetwork.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import star.wars.resistance.network.socialnetwork.models.Traicao;
-import star.wars.resistance.network.socialnetwork.repository.RebeldesRepository;
 import star.wars.resistance.network.socialnetwork.service.TraicaoService;
 
 import java.util.List;
@@ -18,7 +17,7 @@ public class TraicaoController {
 
 
     @GetMapping
-    public List<Traicao> todos(){
+    public List<Traicao> todos() {
         return traicaoService.todos();
     }
 
@@ -28,6 +27,5 @@ public class TraicaoController {
         return traicaoService.novo(traicao);
 
     }
-
 
 }

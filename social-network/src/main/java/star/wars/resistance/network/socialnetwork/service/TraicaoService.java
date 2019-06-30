@@ -7,9 +7,11 @@ import star.wars.resistance.network.socialnetwork.models.Traicao;
 import star.wars.resistance.network.socialnetwork.repository.RebeldesRepository;
 import star.wars.resistance.network.socialnetwork.repository.TraicaoRepository;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
+@Transactional
 public class TraicaoService {
 
     @Autowired

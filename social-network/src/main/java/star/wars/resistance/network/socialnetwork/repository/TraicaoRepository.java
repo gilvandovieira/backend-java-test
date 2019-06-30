@@ -5,10 +5,12 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 import star.wars.resistance.network.socialnetwork.models.Traicao;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 
 @Repository
+@Transactional
 public interface TraicaoRepository extends JpaRepository<Traicao, Long>, CrudRepository<Traicao, Long> {
 
     List<Traicao> findByTraido(Long rebelde);
